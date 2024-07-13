@@ -1,0 +1,131 @@
+/* styles.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #333;
+  padding: 1rem 0;
+} 
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.cta-button:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f4f4f4;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.contact-details p, .social-media p {
+  margin: 0.5rem 0;
+}
+
+.contact-details a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.social-media a {
+  margin: 0 0.5rem;
+}
+
+.social-media img {
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+#about {
+  background: #fff;
+  padding: 4rem 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+#about h2 {
+  color: #007BFF;
+  margin-bottom: 1rem;
+}
+
+#about p {
+  text-align: justify;
+  line-height: 1.8;
+  margin: 0;
+}
+
+#about p:first-letter {
+  font-size: 1.2rem;
+  font-weight: bold;}
