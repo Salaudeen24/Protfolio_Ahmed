@@ -34,6 +34,14 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+.circular {
+  max-width: 90px; /* You can adjust the size here */
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin: 1rem auto;
+  display: block;
+}
 section {
   padding: 2rem;
   text-align: center;
